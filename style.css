@@ -1,0 +1,20 @@
+h3 {
+    font-size: 25px !important;
+}
+
+.btn-success:hover{
+    background-color: red;
+    color: white;
+}
+
+canvas {
+    color: white;
+    animation-name: havename;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes havename{
+    from {box-shadow:1px 1px 50px green;}
+    to{box-shadow:1px 1px 50px yellow;}
+}
